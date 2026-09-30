@@ -29,7 +29,7 @@ const DRH=N("Direction des Ressources Humaines","GF14 à U1",["C00439 Ndèye Fat
    N("Pool Chauffeurs CAR (04)",G35,["M08005 Mbaye SENE","M08129 Cheikh Tidiane NDONG","M08545 Talla SENE","M08680 Lana NDIAYE"])
   ],{p:[[N("Assistant Comptable et Budget",GA,["M08426 Ndèye Fatou CORREA"]),N("Assistant Administration et Logistique",GA,["M08530 El Hadji Oumar NIASSE"])]]}),
   N("Chef d'Unité Statistiques et Suivi Plans d'Actions",GB,["M06728 Mariama Dalanda BARRY"],[
-   N("02 Assistants Statistiques et Suivi Plans d'Actions",GA,["!02 Postes Vacants"])])])
+   N("02 Assistants Statistiques et Suivi Plans d'Actions",GA,["M06673 Fatoumata Moussou SEYDI","!01 Poste Vacant"])])])
 ],{p:[[N("Conseillers","GF11 à GF15",["C00661 Ousmane FALL","C00842 Coura Mariam WANE","C00905 Mamadou Rassoul NDIATH"]),N("Assistance de direction",GA,["M05210 Rosalie DIOUF"])],
       [N("Agent de liaison",G35,["M06934 Mbaye Babacar BA"]),N("Chauffeur",G35,["M08570 Matar SAMB"])]]});
 
