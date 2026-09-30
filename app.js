@@ -5,22 +5,22 @@ const N=(t,g,l,c,o)=>[t,g,l||[],c||[],o||{}];
 const V=["!Vacant"],L="departement.html?d=";
 
 const DADC=N("Département Acquisition et Développement des Compétences (DADC)",G13,["C00947 El Hadji Amadou CISSE"],[
- N("Chef de Service Gestion des Carrières et des Compétences",GC,V,[
-  N("Chef d'Unité Mobilité du Personnel",GB,["M06997 Lamine Birama SARR"],[N("02 Assistants Mobilité du Personnel",GA,["M08553 Ousmane KANE"])]),
-  N("Chef d'Unité Évaluation et Management des Performances du Personnel",GB,V,[N("02 Assistants Évaluation",GA,["M06674 Aminata FALL","!01 Poste vacant"])])]),
+ N("Chef de Service Gestion des Carrières et des Compétences",GC,["C00841 Alphonse Gaïky BAHOUM"],[
+  N("Chef d'Unité Mobilité du Personnel",GB,["M06997 Lamine Birama SARR"],[N("02 Assistants Mobilité du Personnel",GA,["M08751 Ameth MBAYE","!01 Poste vacant"])]),
+  N("Chef d'Unité Évaluation et Management des Performances du Personnel",GB,["M06674 Aminata FALL"],[N("02 Assistants Évaluation",GA,["M08731 Ndèye Khady TOURE","!01 Poste vacant"])])]),
  N("Chef de Service Prévisions RH & Recrutement",GC,["C00839 Mafou BA"],[
-  N("Chef d'Unité Statistique Structures & Prévisions RH",GB,["M07759 Adramé DIALLO"],[N("02 Assistants Statistiques & Prévisions RH",GA,["M07762 Ndeye Binta NDIAYE"])]),
-  N("Chef d'Unité Recrutement",GB,["M07330 Bénédicta CARVALHO"],[N("03 Assistants Recrutement",GA,["!03 Postes vacants"])])]),
- N("Chef de Service Développement des Compétences",GC,["C00916 Khourédia Faye SECK"],[
-  N("Expert Ingénierie Formation","GF11 à GF15",["C01086 Ousmane Mbèry NDIAYE"],[
+  N("Chef d'Unité Statistique Structures & Prévisions RH",GB,["M07759 Adramé DIALLO"],[N("02 Assistants Statistiques & Prévisions RH",GA,["!02 Postes vacants"])]),
+  N("Chef d'Unité Recrutement",GB,["M07330 Bénédicta CARVALHO"],[N("03 Assistants Recrutement",GA,["M06673 Fatoumata Moussou SEYDI","M06675 Marie Louise Dibor NGOM","M08553 Ousmane KANE"])])]),
+ N("Chef de Service Développement des Compétences",GC,["C01086 Ousmane Mbèry NDIAYE"],[
+  N("Expert Ingénierie Formation","GF11 à GF15",V,[
    N("Chef d'Unité Réalisation des Formations",GB,["M06583 Mame Coumba T. SECK"],[N("02 Assistants Formation",GA,["M08448 Fatou Talibé B. A. SY","!01 Poste vacant"])]),
-   N("Chef d'Unité Gestion des Stages et Relations Extérieures",GB,["M07423 Lucien Amadou DIOUF"],[N("02 Assistants Gestion des Stages",GA,["!02 Postes vacants"])])])])
-],{p:[[null,N("Secrétaire",G79,V)]]});
+   N("Chef d'Unité Gestion des Stages et Relations Extérieures",GB,["M07423 Lucien Amadou DIOUF"],[N("02 Assistants Gestion des Stages",GA,["M07407 Maïmouna BADJI","M07362 Diam Ba NDIAYE"])])])])
+],{p:[[null,N("Secrétaire",G79,["M08262 Fatim LOUM"])]]});
 
 const DRH=N("Direction des Ressources Humaines","GF14 à U1",["C00439 Ndèye Fatou SARR"],[
  N("Délégation Coordination Santé et Sécurité au Travail",G13,["C00825 Yacine Ndoumbé JOUGA"],[],{h:L+"dcsst"}),
- N("08 correspondants RH",GB,["C00840 Djiby GAYE|DPP","C00841 Alphonse Gaïky BAHOUM|DPC","C01079 Massamba Sall DIA|DRN","C01080 Thiané SIDIBE|DPR","M06620 Alassane Laurent DABO|DRCE","C01303 Aïssatou FALL|DRCO","C01307 Oury Marie Isabelle NDIAYE|DPE","C01337 Samba DIAW|DRS"],[
-  N("08 Assistants RH",GA,["M08559 Mouhamadou Lamine DIENG|DPP","M07771 Dieynaba DIALLO|DPC","M07362 Diam Ba NDIAYE|DRN","M08025 Mouhamed El Bachir SALL|DPR","M08064 Bassirou YADE|DRCE","M08264 Mody Barka BA|DRCO","M08176 Khadidiatou CISSE|DPE","M08558 Mohamed KEITA|DRS"],[],{c:"wide"})],{c:"wide"}),
+ N("08 correspondants RH",GB,["C00840 Djiby GAYE|DPP","!Poste vacant (DPC)","C01079 Massamba Sall DIA|DRN","C01080 Thiané SIDIBE|DPR","!Poste vacant (DRCE)","C01303 Aïssatou FALL|DRCO","C01307 Oury Marie Isabelle NDIAYE|DPE","C01337 Samba DIAW|DRS"],[
+  N("08 Assistants RH",GA,["M08559 Mouhamadou Lamine DIENG|DPP","M07771 Dieynaba DIALLO|DPC","M08025 Mouhamed El Bachir SALL|DRCE","M08176 Khadidiatou CISSE|DPE","!04 Postes Vacants (DPR, DRCO, DRN et DRS)"],[],{c:"wide"})],{c:"wide"}),
  N("Chef de Département Acquisition et Développement des Compétences",G13,["C00947 El Hadji Amadou CISSE"],[],{h:L+"dadc"}),
  N("Chef de Département Administration du Personnel et Rémunération",G13,["C00833 Abdou Sarr THIAW"],[],{h:L+"dapr"}),
  N("Chef de Cellule Affaires Sociales",G13,["C00663 Baye Ousmane NIANG"],[],{h:L+"das"}),
@@ -30,7 +30,7 @@ const DRH=N("Direction des Ressources Humaines","GF14 à U1",["C00439 Ndèye Fat
   ],{p:[[N("Assistant Comptable et Budget",GA,["M08426 Ndèye Fatou CORREA"]),N("Assistant Administration et Logistique",GA,["M08530 El Hadji Oumar NIASSE"])]]}),
   N("Chef d'Unité Statistiques et Suivi Plans d'Actions",GB,["M06728 Mariama Dalanda BARRY"],[
    N("02 Assistants Statistiques et Suivi Plans d'Actions",GA,["M06673 Fatoumata Moussou SEYDI","!01 Poste Vacant"])])])
-],{p:[[N("Conseillers","GF11 à GF15",["C00661 Ousmane FALL","C00842 Coura Mariam WANE","C00905 Mouhamed Rassoul NDIATH"]),N("Assistance de direction",GA,["M05210 Rosalie DIOUF"])],
+],{p:[[N("Conseillers","GF11 à GF15",["C00661 Ousmane FALL","C00842 Coura Mariam WANE"]),N("Assistance de direction",GA,["M05210 Rosalie DIOUF"])],
       [N("Agent de liaison",G35,["M06934 Mbaye Babacar BA"]),N("Chauffeur",G35,["M08570 Matar SAMB"])]]});
 
 const DCH=N("Chauffeur Ambulacier",G46,[]);const ch=(m)=>N("Chauffeur Ambulacier",G46,[m]);
@@ -55,13 +55,13 @@ const DCSST=N("Déléguée de la Coordination Santé et Sécurité au Travail (D
 ],{p:[[null,N("Assistance de Délégation",GA,["M06609 Bintou DIAGNE"])]]});
 
 const DAPR=N("Chef de Département Administration du Personnel et Rémunération",G13,["C00833 Abdou Sarr THIAW"],[
- N("Chef de Gestion Rémunération",GC,["C01232 Papa Mamadou NDIAYE"],[
+ N("Chef de Service Gestion de la Rémunération",GC,["C01232 Papa Mamadou NDIAYE"],[
   N("Chef d'Unité Traitement Salaires Cadres",GB,["C01228 Nansani KONATE"],[N("02 Assistants Traitement Salaires Cadres",GA,["M07823 Ibrahima NDIAYE","!01 Poste vacant"])]),
-  N("Chef d'Unité Traitement Salaires Non Cadres",GB,["M07825 Abdou Aziz LO"],[N("03 Assistants Traitement Salaires Non Cadres",GA,["M07998 Mouhamet GAYE","!03 Postes vacants"])])
+  N("Chef d'Unité Traitement Salaires Non Cadres",GB,["M07825 Abdou Aziz LO"],[N("03 Assistants Traitement Salaires Non Cadres",GA,["M07998 Mouhamet GAYE","M08729 Samba YAGUE","!01 Poste vacant"])])
  ],{p:[[null,N("Secrétaire",G79,["M08266 Gnilane FAYE"])]]}),
  N("Chef de Service Administration du Personnel",GC,["C00906 Papa Mamadou NDAO"],[
   N("Chef d'Unité Administration du Personnel Cadres",GB,["C01231 Mame Fatma KANE"],[N("02 Assistants Administration Personnel Cadres",GA,["M06368 Fama GAYE","!01 Poste vacant"])]),
-  N("Chef d'Unité Administration Personnel Non Cadres",GB,V,[N("02 Assistants Administration Personnel Non Cadres",GA,["M07758 El Hadji Oumar SALL","M07826 Aminata NDIAYE"])])
+  N("Chef d'Unité Administration Personnel Non Cadres",GB,["M07758 El Hadji Oumar SALL"],[N("02 Assistants Administration Personnel Non Cadres",GA,["M07826 Aminata NDIAYE","M08730 Alimatou Mama SY"])])
  ],{p:[[null,N("Secrétaire",G79,V)]]})
 ],{p:[[N("Assistance Archiviste",GA,["M07461 Awa DIOP"]),N("Secrétaire",G79,["M08274 Mame Diarra MBAYE"])]]});
 
@@ -70,14 +70,14 @@ const DAS=N("Chef de Département Affaires Sociales",G13,["C00663 Baye Ousmane N
   N("Chef d'Unité Actions et Relations Sociales",GB,["M06746 Joseph Latyr THIAO"],[
    N("Assistant Avantages Sociaux",GA,["M08649 Adama El Bachir DIOP"]),N("Assistant Relations Sociales et Partenariales",GA,["M08681 Fanta SANOKO"])]),
   N("Chef d'Unité Cérémonies Religieuses et d'Activités Sportives, Socio-Éducatives",GB,["C01117 Senghane MBAYE"],[
-   N("Assistant Activités Éducatives et Socio-Culturelles",GA,V),N("Assistant Cérémonies Religieuses",GA,V)])]),
+   N("Assistant Activités Éducatives et Socio-Culturelles",GA,["M07762 Ndèye Binta NDIAYE"]),N("Assistant Cérémonies Religieuses",GA,V)])]),
  N("Chef de Service Prévention et Prise en Charge Psychosociale",GC,["C01179 Alioune THIOUNE"],[
   N("Chef d'Unité Prise en Charge Psychosociale",GB,V,[N("Assistant Prise en Charge Psychosociale",GA,["M08534 Ndèye Codou FALL"])]),
-  N("Chef d'Unité Prévention Sociale",GB,V,[N("Assistant Prévention Sociale",GA,["M06730 Souaybou Lyon SANE"])])]),
+  N("Chef d'Unité Prévention Sociale",GB,["M06730 Souaybou Lyon SANE"],[N("Assistant Prévention Sociale",GA,V)])]),
  N("FOPES - Président Bureau Exécutif",null,["C00663 Baye Ousmane NIANG"],[
   N("Coordinateur Projets Économiques et Sociaux",GB,["C01230 Daouda BA"],[N("02 Assistants Projets Économiques et Sociaux",GA,["M07866 Mamadou DIOP","!01 Poste vacant"])]),
   N("Chef de Service Trésorerie",GC,["C01134 Kiné GUEYE"],[N("Chef d'Unité Comptabilité",GB,["M06087 Rokhaya NIANG"],[N("02 Assistants Comptables",GA,["M07865 Adama NDIAYE","!01 Poste vacant"])])])])
-],{p:[[N("Secrétaire",G79,V),N("Assistance Comptable",GA,["M07999 El Hadji Mamadou SALL"])],
+],{p:[[N("Secrétaire",G79,["M08265 Safietou NDIAYE"]),N("Assistance Comptable",GA,["M07999 El Hadji Mamadou SALL"])],
       [N("Agent Courrier",G35,V),N("Chauffeur",G35,V)],
       [N("Gérant IPM",GC,["C00907 Malick FALL"]),N("Trésorier Général IPM",GC,["C00909 Mamadou HANNE"])],
       [N("MUTAS"),null]]});
@@ -95,8 +95,7 @@ function box(n,cls,href){
  const b=el(href?"a":"div","box"+(cls?" "+cls:""));if(href)b.href=href;
  b.appendChild(el("b","",n[0]));
  if(n[1])b.appendChild(el("div","g",n[1]));
- // Tri par matricule (les lignes vacantes restent à la fin)
- [...(n[2]||[])].sort((x,y)=>(x[0]=="!")-(y[0]=="!")||(x[0]=="!"?0:x.localeCompare(y))).forEach(l=>{
+ (n[2]||[]).forEach(l=>{
   if(l[0]=="!"){b.appendChild(el("div","vac",l.slice(1)));return}
   const p=l.split("|"),d=el("div","nm",p[0]);if(p[1])d.appendChild(el("span","tg",p[1]));b.appendChild(d)});
  return b}
