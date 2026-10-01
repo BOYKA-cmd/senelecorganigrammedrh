@@ -42,7 +42,7 @@ const DCSST=N("Déléguée de la Coordination Santé et Sécurité au Travail (D
   N("Infirmier d'État Immeuble Keur Gorgui",G710,["M07725 Abdou Aziz NDIAYE"],[N("Infirmier Auxiliaire",G47,["M08585 Sanou NDIAYE"])],{l:3}),
   ch("M06221 Thierno SAMBE"),
   N("Infirmier d'État Bel Air",G710,["M06574 Mounirou Abdoul KANE"],[N("Infirmier Auxiliaire",G47,["M08584 Thiané FALL"])],{l:3})]),
- N("Infirmier Major avec Rang de Chef d'Unité",GB,["M06302 Babacar GAYE"],[N("Infirmier Auxiliaire",G47,["M06380 Fatou B. Rassoul NIASS"],[],{l:4})],{l:2}),
+ N("Infirmier Major avec Rang de Chef d'Unité",GB,["C013XX Babacar GAYE"],[N("Infirmier Auxiliaire",G47,["M06380 Fatou B. Rassoul NIASS"],[],{l:4})],{l:2}),
  N("Chef de Département Santé et Service au Travail de Dakar 3",G13,["C01263 Rodrigue J. Eymar COLY"],[
   N("Infirmier d'État Guédiawaye",G710,["M06623 Penda KANE"],[],{l:3}),
   ch("M08411 Amadou Moctar LY"),
@@ -76,7 +76,7 @@ const DAS=N("Chef de Département Affaires Sociales",G13,["C00663 Baye Ousmane N
   N("Chef d'Unité Prévention Sociale",GB,["M06730 Souaybou Lyon SANE"],[N("Assistant Prévention Sociale",GA,V)])],{l:2}),
  N("FOPES - Président Bureau Exécutif",null,["C00663 Baye Ousmane NIANG"],[
   N("Coordinateur Projets Économiques et Sociaux",GB,["C01230 Daouda BA"],[N("02 Assistants Projets Économiques et Sociaux",GA,["M07866 Mamadou DIOP","!01 Poste Vacant"])],{l:3}),
-  N("Chef de Service Trésorerie",GC,["C01134 Kiné GUEYE"],[N("Chef d'Unité Comptabilité",GB,["M06087 Rokhaya NIANG"],[N("02 Assistants Comptables",GA,["M07865 Adama NDIAYE","!01 Poste Vacant"])])])],{l:1})
+  N("Chef de Service Trésorerie",GC,["C01134 Marie SALL"],[N("Chef d'Unité Comptabilité",GB,["M06087 Rokhaya NIANG"],[N("02 Assistants Comptables",GA,["M07865 Adama NDIAYE","!01 Poste Vacant"])])])],{l:1})
 ],{p:[[N("Secrétaire",G79,["M08265 Safietou NDIAYE"]),N("Assistance Comptable",GA,["M07999 El Hadji Mamadou SALL"],[],{u:1})],
       [N("Agent Courrier",G35,V),N("Chauffeur",G35,V)],
       [N("Gérant IPM",GC,["C00907 Malick FALL"]),N("Trésorier Général IPM",GC,["C00909 Mamadou HANNE"])],
